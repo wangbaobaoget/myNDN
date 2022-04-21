@@ -1,2 +1,0 @@
-version = 0x1080500
-tools = [{'tool': 'ar', 'tooldir': None, 'funs': None}, {'tool': 'c', 'tooldir': None, 'funs': None}, {'tool': 'gcc', 'tooldir': None, 'funs': None}, {'tool': 'compiler_c', 'tooldir': None, 'funs': None}, {'tool': 'cxx', 'tooldir': None, 'funs': None}, {'tool': 'g++', 'tooldir': None, 'funs': None}, {'tool': 'compiler_cxx', 'tooldir': None, 'funs': None}, {'tool': 'default-compiler-flags', 'tooldir': None, 'funs': None}, {'tool': 'boost', 'tooldir': None, 'funs': None}, {'tool': 'ns3', 'tooldir': None, 'funs': None}]
