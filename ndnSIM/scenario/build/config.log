@@ -1,0 +1,346 @@
+# project template (0.1) configured on Thu Jul 19 10:46:23 2018 by
+# waf 1.8.5 (abi 98, python 2070cf0 on linux2)
+# using ./waf configure
+#
+----------------------------------------
+Setting top to
+/home/eva/new/ndnSIM/scenario
+----------------------------------------
+Setting out to
+/home/eva/new/ndnSIM/scenario/build
+----------------------------------------
+Checking for 'gcc' (C compiler)
+find program=['gcc', 'cc'] paths=['/home/eva/bin', '/home/eva/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CC' -> ['/usr/bin/gcc']
+find program=['ar'] paths=['/home/eva/bin', '/home/eva/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/gcc
+----------------------------------------
+Checking for 'g++' (C++ compiler)
+find program=['g++', 'c++'] paths=['/home/eva/bin', '/home/eva/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CXX' -> ['/usr/bin/g++']
+(tool ar is already loaded, skipping)
+/usr/bin/g++
+----------------------------------------
+Checking supported CXXFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_be333c6dc5b85967243db92307a6f4f7/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-std=c++11', '../test.cpp', '-c', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_be333c6dc5b85967243db92307a6f4f7/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_be333c6dc5b85967243db92307a6f4f7/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_be333c6dc5b85967243db92307a6f4f7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+-std=c++11
+----------------------------------------
+Checking supported CXXFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_2e62990b89c289813d3aa7c3f0bdc15a/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Wall', '../test.cpp', '-c', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_2e62990b89c289813d3aa7c3f0bdc15a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_2e62990b89c289813d3aa7c3f0bdc15a/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_2e62990b89c289813d3aa7c3f0bdc15a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_ddc873ba59010602be3e26d3b507028e/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-O2', '../test.cpp', '-c', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_ddc873ba59010602be3e26d3b507028e/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_ddc873ba59010602be3e26d3b507028e/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_ddc873ba59010602be3e26d3b507028e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_603f70cee0e61f195c43b251e8e49a3b/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-g', '../test.cpp', '-c', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_603f70cee0e61f195c43b251e8e49a3b/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_603f70cee0e61f195c43b251e8e49a3b/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/eva/new/ndnSIM/scenario/build/.conf_check_603f70cee0e61f195c43b251e8e49a3b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+-Wall -O2 -g
+----------------------------------------
+Checking for program 'pkg-config'
+/usr/bin/pkg-config
+find program=['pkg-config'] paths=['/home/eva/bin', '/home/eva/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
+------------------------------------------
+Checking for pkg-config version >= '0.0.0'
+['/usr/bin/pkg-config', '--atleast-pkgconfig-version=0.0.0']
+yes
+------------------------------------------
+Checking for ns3-core
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-core-optimized']
+out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-network
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-network-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-point-to-point
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-point-to-point-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-applications
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-applications-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-mobility
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-mobility-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-ndnSIM
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-ndnSIM-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/home/eva/new/ndnSIM/ns-3/build/ns3/ndnSIM/NFD -I/home/eva/new/ndnSIM/ns-3/ns3/ndnSIM/NFD -I/home/eva/new/ndnSIM/ns-3/build/src/ndnSIM/NFD/core -I/home/eva/new/ndnSIM/ns-3/src/ndnSIM/NFD/core -I/home/eva/new/ndnSIM/ns-3/build/src/ndnSIM/NFD/daemon -I/home/eva/new/ndnSIM/ns-3/src/ndnSIM/NFD/daemon -I/home/eva/new/ndnSIM/ns-3/build/src/ndnSIM/NFD/rib -I/home/eva/new/ndnSIM/ns-3/src/ndnSIM/NFD/rib -I/home/eva/new/ndnSIM/ns-3/build/ns3/ndnSIM -I/home/eva/new/ndnSIM/ns-3/ns3/ndnSIM -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-ndnSIM-optimized -lboost_graph -lboost_thread -lboost_unit_test_framework -lboost_system -lboost_random -lboost_date_time -lboost_iostreams -lboost_regex -lboost_program_options -lboost_chrono -lboost_filesystem -lboost_system -lboost_signals -lboost_filesystem -lsqlite3 -lrt -lpthread -lssl -lcrypto -Wl,-Bdynamic -lns3-dev-topology-read-optimized -Wl,-Bdynamic -lns3-dev-visualizer-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-antenna
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-antenna-optimized']
+out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-aodv
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-aodv-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-aodv-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-bridge
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-bridge-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-brite
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-brite-optimized']
+err: Package libns3-dev-brite-optimized was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libns3-dev-brite-optimized.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libns3-dev-brite-optimized' found
+
+not found
+from /home/eva/new/ndnSIM/scenario: The configuration failed
+------------------------------------------
+Checking for ns3-buildings
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-buildings-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-click
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-click-optimized']
+err: Package libns3-dev-click-optimized was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libns3-dev-click-optimized.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libns3-dev-click-optimized' found
+
+not found
+from /home/eva/new/ndnSIM/scenario: The configuration failed
+------------------------------------------
+Checking for ns3-config-store
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-config-store-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-csma
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-csma-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-csma-layout
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-csma-layout-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-csma-layout-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-dsdv
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-dsdv-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-dsdv-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-dsr
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-dsr-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-dsr-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-emu
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-emu-optimized']
+err: Package libns3-dev-emu-optimized was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libns3-dev-emu-optimized.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libns3-dev-emu-optimized' found
+
+not found
+from /home/eva/new/ndnSIM/scenario: The configuration failed
+------------------------------------------
+Checking for ns3-energy
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-energy-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-fd-net-device
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-fd-net-device-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-flow-monitor
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-flow-monitor-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-flow-monitor-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-internet
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-internet-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-lte
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-lte-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-lte-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-mesh
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-mesh-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mesh-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-mpi
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-mpi-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-netanim
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-netanim-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-netanim-optimized -Wl,-Bdynamic -lns3-dev-wimax-optimized -Wl,-Bdynamic -lns3-dev-lte-optimized -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-uan-optimized -Wl,-Bdynamic -lns3-dev-lr-wpan-optimized -Wl,-Bdynamic -lns3-dev-wave-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-layout-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-nix-vector-routing
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-nix-vector-routing-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-nix-vector-routing-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-olsr
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-olsr-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-olsr-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-openflow
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-openflow-optimized']
+err: Package libns3-dev-openflow-optimized was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libns3-dev-openflow-optimized.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libns3-dev-openflow-optimized' found
+
+not found
+from /home/eva/new/ndnSIM/scenario: The configuration failed
+------------------------------------------
+Checking for ns3-point-to-point-layout
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-point-to-point-layout-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-point-to-point-layout-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-propagation
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-propagation-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-spectrum
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-spectrum-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-stats
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-stats-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-tap-bridge
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-tap-bridge-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-tap-bridge-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-topology-read
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-topology-read-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-topology-read-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-uan
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-uan-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-uan-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-virtual-net-device
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-virtual-net-device-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-visualizer
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-visualizer-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-visualizer-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-wifi
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-wifi-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
+------------------------------------------
+Checking for ns3-wimax
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-wimax-optimized']
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-wimax-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+
+yes
