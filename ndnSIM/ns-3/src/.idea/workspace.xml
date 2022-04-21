@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="src" targetName="src" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abe779fb-27c7-40d7-99f8-45f5eed8a62c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="src" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1YeYQ4Ue9aMBzP9xzFok8kC0UyF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="  FORWARDER&#9;null&#9;null&#10;setTag&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="src" TARGET_NAME="src" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="src" TARGET_NAME="src" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="src" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="src" TARGET_NAME="src" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="src" RUN_TARGET_NAME="src">
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abe779fb-27c7-40d7-99f8-45f5eed8a62c" name="Default" comment="" />
+      <created>1543647864774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543647864774</updated>
+      <workItem from="1543647866921" duration="1175000" />
+      <workItem from="1544087971170" duration="54000" />
+      <workItem from="1544088864141" duration="2452000" />
+      <workItem from="1544091559579" duration="758000" />
+      <workItem from="1544099860072" duration="1663000" />
+      <workItem from="1544102834875" duration="600000" />
+      <workItem from="1544105748526" duration="19000" />
+      <workItem from="1544108098990" duration="8000" />
+      <workItem from="1547434238020" duration="107000" />
+      <workItem from="1547434553046" duration="14695000" />
+      <workItem from="1547536216374" duration="6100000" />
+      <workItem from="1547545487984" duration="2581000" />
+      <workItem from="1547692148549" duration="115000" />
+      <workItem from="1547692306052" duration="6732000" />
+      <workItem from="1547885655307" duration="868000" />
+      <workItem from="1547886561703" duration="432000" />
+      <workItem from="1547969958474" duration="2415000" />
+      <workItem from="1548122866022" duration="181000" />
+      <workItem from="1548123153943" duration="76000" />
+      <workItem from="1548124021281" duration="13000" />
+      <workItem from="1548124265776" duration="4144000" />
+      <workItem from="1548144922044" duration="52000" />
+      <workItem from="1548145012893" duration="802000" />
+      <workItem from="1548145892318" duration="6549000" />
+      <workItem from="1548152528209" duration="34000" />
+      <workItem from="1548152708433" duration="2164000" />
+      <workItem from="1548154986763" duration="779000" />
+      <workItem from="1548155898349" duration="246000" />
+      <workItem from="1548241918346" duration="257000" />
+      <workItem from="1548242268311" duration="39000" />
+      <workItem from="1548242348884" duration="2593000" />
+      <workItem from="1548319507484" duration="4672000" />
+      <workItem from="1548578218387" duration="593000" />
+      <workItem from="1550470481957" duration="26000" />
+      <workItem from="1550470555000" duration="839000" />
+      <workItem from="1550471490991" duration="2556000" />
+      <workItem from="1550474938588" duration="4745000" />
+      <workItem from="1550972535837" duration="5240000" />
+      <workItem from="1550978003698" duration="12000" />
+      <workItem from="1550978042121" duration="7000" />
+      <workItem from="1550978081742" duration="26000" />
+      <workItem from="1550978249051" duration="26000" />
+      <workItem from="1550978347388" duration="7417000" />
+      <workItem from="1550997653063" duration="367000" />
+      <workItem from="1550998521305" duration="986000" />
+      <workItem from="1551057705425" duration="16552000" />
+      <workItem from="1551088098895" duration="461000" />
+      <workItem from="1551142488604" duration="12523000" />
+      <workItem from="1551171435201" duration="111000" />
+      <workItem from="1551171664464" duration="2619000" />
+      <workItem from="1551188340745" duration="899000" />
+      <workItem from="1551232029955" duration="16051000" />
+      <workItem from="1551324520622" duration="3750000" />
+      <workItem from="1551405420240" duration="598000" />
+      <workItem from="1551750380343" duration="8035000" />
+      <workItem from="1551773355024" duration="4158000" />
+      <workItem from="1551838281019" duration="10967000" />
+      <workItem from="1552351934537" duration="1456000" />
+      <workItem from="1552396072567" duration="7926000" />
+      <workItem from="1552472977559" duration="17420000" />
+      <workItem from="1553069417359" duration="2126000" />
+      <workItem from="1553138066891" duration="7000" />
+      <workItem from="1553138084861" duration="1534000" />
+      <workItem from="1553140712075" duration="15000" />
+      <workItem from="1553153534918" duration="31000" />
+      <workItem from="1553155952194" duration="10678000" />
+      <workItem from="1553409112309" duration="9485000" />
+      <workItem from="1553496338144" duration="28947000" />
+      <workItem from="1553672998558" duration="9225000" />
+      <workItem from="1553829784324" duration="109000" />
+      <workItem from="1553829949112" duration="2000" />
+      <workItem from="1553846211540" duration="3000" />
+      <workItem from="1553846872308" duration="21000" />
+      <workItem from="1554188522304" duration="6529000" />
+      <workItem from="1554339060555" duration="588000" />
+      <workItem from="1554343839805" duration="2714000" />
+      <workItem from="1554348130343" duration="4060000" />
+      <workItem from="1554367496942" duration="7000" />
+      <workItem from="1554370701727" duration="795000" />
+      <workItem from="1554781920083" duration="9000" />
+      <workItem from="1554801264368" duration="159000" />
+      <workItem from="1554803013665" duration="6086000" />
+      <workItem from="1554947638278" duration="9050000" />
+      <workItem from="1555035365309" duration="29119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="312032000" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+</project>
